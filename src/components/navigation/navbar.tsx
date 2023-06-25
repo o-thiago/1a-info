@@ -30,7 +30,7 @@ export const TopBar: React.FC<TopBarProps> = ({ drawerId }) => {
         </div>
         <div>
           <label htmlFor={drawerId} className="btn btn-ghost shadow-lg lg:hidden rounded-md drop-shadow-lg outline-primary outline-1.5 outline">
-            <FontAwesomeIcon icon={faBars} width={24}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faBars} width={24}/>
           </label>
         </div>
       </div>
